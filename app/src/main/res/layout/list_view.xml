@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_step_num"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="Step Num"/>
+    <TextView
+        android:id="@+id/tv_step_update_time"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="Update Time"/>
+
+</LinearLayout>
