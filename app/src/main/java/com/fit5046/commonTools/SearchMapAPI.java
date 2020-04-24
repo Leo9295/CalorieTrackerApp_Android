@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class SearchMapAPI {
 
-    private static final String API_KEY = "AIzaSyBJYzmnq0JrOYY9xI1HgVFG5E32eLhZoYM";
+    private static final String API_KEY = "Your Own API_KEY From Google Account";
 
     public static String searchPlace(String address) {
         address = address.replace(" ", "+");
