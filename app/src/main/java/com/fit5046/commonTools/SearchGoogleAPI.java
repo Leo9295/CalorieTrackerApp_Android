@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class SearchGoogleAPI {
 
     private static final String SEARCH_URL = "https://www.googleapis.com/customsearch/v1?";
-    private static final String API_KEY = "AIzaSyDE47VoUGazWVTrf36SOWq0t2qukT3I7Uw";
+    private static final String API_KEY = "Your Own API_KEY From Google Account";
     private static final String SEARCH_ID_cx = "012983880789318303979:rfasjccwhju";
 
     public static String searchGoogleAPI(String keyword) {
