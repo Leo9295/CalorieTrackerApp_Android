@@ -15,8 +15,8 @@ import java.util.Scanner;
  */
 public class SearchFoodAPI {
     // Basic information
-    private final static String APP_ID = "289d6bfc";
-    private final static String API_KEY = "64dc88b9f9090b6d3bf30ac55762766f";
+    private final static String APP_ID = "Your Own App_ID";
+    private final static String API_KEY = "Your Own API_KEY From www.edamam.com";
     private final static String SEARCH_URL = "https://api.edamam.com/api/food-database/parser?ingr=";
 
     public static String searchFood(String keyword){
